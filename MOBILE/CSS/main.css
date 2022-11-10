@@ -1,0 +1,96 @@
+.products {
+    max-width: 960px;
+    display: flex;
+    align-items: stretch;
+}
+
+.product {
+    display: block;
+    padding: 32px 24px 24px 24px;
+    border: solid;
+    border-color: #e4e4e4;
+    border-width: 1px;
+}
+
+.product__image {
+    margin-bottom: 10px;
+    text-align: center;
+    max-width: 320px;
+    border: 0ch;
+}
+
+.heading {
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+.price__nodph {
+    font-size: 13px;
+    color: grey;
+}
+
+.price {
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    padding-top: -50px;
+    margin-top: -10px;
+}
+
+
+.btn {
+    font-family: "Nunito Sans";
+    margin-left: 166px;
+    background-color: #0F8EDB; 
+    border: none;
+    color: white;
+    padding: 12px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+
+.btn:active{
+    color: white(2, 72, 70);
+    font-family: "Nunito Sans";
+    margin-left: 166px;
+    background-color: #054c54; 
+    border: none;
+    padding: 12px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+
+.skladem {
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    margin-top: -20px;
+    margin-bottom: -50px;
+    color: rgb(3, 111, 3);
+}
+
+.popisek {
+    margin-top: -14px;
+    color: grey;
+    font-size: 15px;
+}
+
+.kod {
+    font-family: "Nunito Sans";
+    margin-left: 220px;
+    color: grey;
+    font-size: 11px;
+    margin-bottom: -8px;
+}
